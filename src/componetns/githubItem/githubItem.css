@@ -1,0 +1,27 @@
+.card-responsive {
+  flex: 1 0 20%;
+  border: 1px solid #dee2e6 !important;
+  min-width: 10rem !important;
+  padding: 1rem;
+  margin: 1rem 1rem 1rem 1rem !important;
+  -webkit-box-shadow: 6px 7px 37px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 7px 37px -6px rgba(0,0,0,0.75);
+box-shadow: 6px 7px 37px -6px rgba(0,0,0,0.75);
+}
+
+.card-responsive:hover {
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  -ms-transform: scale(11.02);
+  transform: scale(1.02);
+}
+
+
+@media screen and (min-width: 576px) {
+  .card-responsive {
+    flex: 1 0 21%;
+    border: 1px solid #dee2e6 !important;
+    max-width: 12rem !important;
+  }
+}
